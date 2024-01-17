@@ -42,12 +42,6 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_indepth: no
           plugin_lines: yes
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
-          plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_sections: answers-top, questions-recent
-          plugin_stackoverflow_user: 49407
           repositories: 250
           repositories_affiliations: ''
           # repositories_affiliations: "owner"
