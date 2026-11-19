@@ -43,6 +43,6 @@ jobs:
           plugin_languages_indepth: no
           plugin_lines: yes
           repositories: 250
-          repositories_affiliations: owner
+          repositories_affiliations: ''
           plugin_notable: yes
           plugin_notable_indepth: yes
