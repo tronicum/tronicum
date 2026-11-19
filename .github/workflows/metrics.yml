@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: tronicum/metrics@patched
+      - uses: tronicum/metrics@modern
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
