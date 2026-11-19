@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: tronicum/metrics@patched
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -24,9 +24,9 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
-          plugin_habits: no
+          plugin_habits: yes
           plugin_habits_days: 203600
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
           plugin_habits_from: 1000
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
